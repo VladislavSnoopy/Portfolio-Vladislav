@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>:></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="lang-switcher">
+  <select id="lang-switch">
+    <option value="en">English</option>
+    <option value="ru">Русский</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+  </select>
+</div>
+
+<div class="landing">
+  <div class="container">
+    <h1 class="greeting" data-i18n="greeting">Hello!</h1>
+    <h2 class="title" data-i18n="title">I'm a 3D Character Artist</h2>
+    <p class="subtitle" data-i18n="subtitle">Creating lifelike, detailed 3D characters for games, animation, and metaverses</p>
+
+    <div class="face">
+      <div class="eyes">
+        <div class="eye">
+          <div class="pupil"></div>
+          <div class="shine"></div>
+        </div>
+        <div class="eye">
+          <div class="pupil"></div>
+          <div class="shine"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <a href="about.html" class="btn neon" data-i18n="about_btn">About Me</a>
+      <a href="about.html#gallery" class="btn neon" data-i18n="portfolio_btn">Portfolio</a>
+      <a href="mailto:your@mail.com" class="btn neon" data-i18n="contact_btn">Contact Me</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/lang.js"></script>
+<script src="js/eyes.js"></script>
+</body>
+</html>
